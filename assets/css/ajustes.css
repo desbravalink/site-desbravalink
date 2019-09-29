@@ -43,3 +43,25 @@ p#white-bold{
 }
 
 /* responsividade */
+@media screen and (max-width:500px){
+.lead{
+    text-align:center;
+    width: 80% ;
+    font-size: 16px;
+    left:8%;
+    position: relative;
+    
+    }
+ #lead{
+    text-align:center;
+    width: 90%;
+    font-size: 35px;
+    left:4%;
+    position: relative;
+    }   
+#img{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    }
+}
